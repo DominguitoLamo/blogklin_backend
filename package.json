@@ -1,0 +1,19 @@
+{
+  "name": "blogklin_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vercel dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vercel": "^29.1.1"
+  },
+  "dependencies": {
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
