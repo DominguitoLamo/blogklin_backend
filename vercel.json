@@ -1,6 +1,6 @@
 {
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api" },
-    { "source": "/users", "destination": "https://nas.wangboweb.site:9201" }
+    { "source": "/notion/:path*", "destination": "https://www.notion.so/:path*" }
   ]
 }
